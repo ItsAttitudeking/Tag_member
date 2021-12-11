@@ -44,3 +44,10 @@
 ## .ᴏᴡɴᴇʀ👑
 
 [![ᴏᴡɴᴇʀ](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](Https://t.me/Alone_Shaurya_king)
+
+</p>
+
+## .ᴅᴇᴩʟᴏy📥
+
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
