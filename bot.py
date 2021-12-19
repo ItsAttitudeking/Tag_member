@@ -35,8 +35,8 @@ async def start(event):
                     buttons=(
                       [Button.url('🔥ᴀᴅᴅ ᴛᴀɢ ᴍᴇᴍʙᴇʀ ᴛᴏ ɢʀᴏᴜᴩ🔥', 'http://t.me/Tag_member_bot?startgroup=true')],
                       [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'Https://t.me/alone_shaurya_king')],
-                      [Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/sweetkingdom1'),
-                      Button.url('ᴜᴩᴅᴀᴛᴇ🔊', 'https://t.me/attitude_galaxy')]
+                      [Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/OAN_Support'),
+                      Button.url('ᴜᴩᴅᴀᴛᴇ🔊', 'https://t.me/Attitude_Network')]
                      ),
                     link_preview=False
                    )
@@ -48,7 +48,7 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'https://t.me/alone_shaurya_king'),
-                      Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/sweetkingdom1')]
+                      Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/OAN_Support')]
                     ),
                     link_preview=False
                    )
