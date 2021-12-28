@@ -31,12 +31,13 @@ async def cancel(event):
 #start
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("Hey [🤗](https://te.legra.ph/file/8d6307fcac08120cb9380.jpg), Welcome,😎 I m Highly advanced Tag Member Bot\n🔥I can tag  members in group as well as in Channel.\n💡Need Help /help\n\n🔥🥂ᴩᴏᴡᴇʀᴇᴅ ʙy: @attitude_galaxy",
+  await event.reply("Hey [🤗](https://te.legra.ph/file/8d6307fcac08120cb9380.jpg), Welcome,😎 I m Highly advanced Tag Member Bot\n🔥I can tag  members in group as well as in Channel.\n💡Need Help /help\n\n🔥🥂ᴩᴏᴡᴇʀᴇᴅ ʙy: @Attitude_Network",
                     buttons=(
                       [Button.url('🔥ᴀᴅᴅ ᴛᴀɢ ᴍᴇᴍʙᴇʀ ᴛᴏ ɢʀᴏᴜᴩ🔥', 'http://t.me/Tag_member_bot?startgroup=true')],
-                      [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'Https://t.me/alone_shaurya_king')],
+                      [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'Https://t.me/ItsAttitudeking')],
                       [Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/OAN_Support'),
-                      Button.url('ᴜᴩᴅᴀᴛᴇ🔊', 'https://t.me/Attitude_Network')]
+                      Button.url('ᴜᴩᴅᴀᴛᴇ🔊', 'https://t.me/Attitude_Network')],
+                     [Button.url('⚒ʀᴇᴩᴏ⚒', 'https://github.com/ItsAttitudeking/Tag_member')]
                      ),
                     link_preview=False
                    )
@@ -47,18 +48,19 @@ async def help(event):
   helptext = "**[🔥](https://te.legra.ph/file/8d6307fcac08120cb9380.jpg), ᴛᴀɢ ᴍᴇᴍʙᴇʀ ʙᴏᴛ'ꜱ ʜᴇʟᴩ ᴍᴇɴᴜ👑**\n\nCommand: /tag \n You can use this command with text you want to tell others. \n`Example: /tag Good morning!` \nYou can use this command as an answer. any message Bot will tag users to replied message"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'https://t.me/alone_shaurya_king'),
+                      [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'https://t.me/ItsAttitudeking'),
                       Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/OAN_Support')]
-                    ),
+                      [Button.url('⚒ʀᴇᴩᴏ⚒', 'https://github.com/ItsAttitudeking/Tag_member')]
+                     ),
                     link_preview=False
                    )
 
-#Wah bhaiya full ignorebazzi
+#Wah bhaiya full ignorebazi
 
 #bsdk credit de dena verna maa chod dege
 
 #tag
-@client.on(events.NewMessage(pattern="^/tag ?(.*)"))
+@client.on(events.NewMessage(pattern="^/tag @all #all ?(.*)"))
 async def mentionall(event):
   global moment_worker
   if event.is_private:
@@ -68,7 +70,7 @@ async def mentionall(event):
   async for admin in client.iter_participants(event.chat_id, filter=ChannelParticipantsAdmins):
     admins.append(admin.id)
   if not event.sender_id in admins:
-    return await event.reply("Only Admin can use it.")
+    return await event.reply("Only Admin can use it😌.")
   
   if event.pattern_match.group(1):
     mode = "text_on_cmd"
@@ -109,7 +111,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
       if event.chat_id not in moment_worker:
-        await event.reply("Stopped")
+        await event.reply("Ok tagger stopped🔇")
         return
       if usrnum == 10:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -120,5 +122,5 @@ async def mentionall(event):
 
 
 print("~~~~Started~~~~~")
-print("🔥🥂Need Help Dm @alone_shaurya_king")
+print("🔥🥂Need Help Dm @ItsAttitudeking")
 client.run_until_disconnected()
