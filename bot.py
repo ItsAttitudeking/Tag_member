@@ -33,11 +33,10 @@ async def cancel(event):
 async def start(event):
   await event.reply("Hey [🤗](https://telegra.ph/file/97da0b711a6ba2f4f4482.jpg)\nWelcome🔥🥂\n━━━━━━━━━━━━━━━━━━━━\n┏━━━━━━━━━━━━━━━━━┓\n┣★I m Highly advanced Tag Member Bot.\n┣★I can tag  members in group as well as in Channel.\n┣★Need Help hit ☛ [★𝐎𝐀𝐍★](Https://t.me/OAN_Support)\n┗━━━━━━━━━━━━━━━━━┛\n━━━━━━━━━━━━━━━━━━━━",
                    buttons=(
-                      [Button.url('🔥ᴀᴅᴅ ᴛᴀɢ ᴍᴇᴍʙᴇʀ ᴛᴏ ɢʀᴏᴜᴩ🔥', 'http://t.me/Tag_member_bot?startgroup=true')],
-                      [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'Https://t.me/ItsAttitudeking')],
-                      [Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/OAN_Support'),
-                      Button.url('ᴜᴩᴅᴀᴛᴇ🔊', 'https://t.me/Attitude_Network')],
-                     [Button.url('⚒ʀᴇᴩᴏ⚒', 'https://github.com/ItsAttitudeking/Tag_member')]
+                      [Button.url('🔥𝐀𝐃𝐃 𝐓𝐀𝐆 𝐌𝐄𝐌𝐁𝐄𝐑 𝐓𝐎 𝐆𝐑𝐎𝐔𝐏🔥', 'http://t.me/Tag_member_bot?startgroup=true')],
+                      [Button.url('⚜𝐎𝐖𝐍𝐄𝐑⚜', 'Https://t.me/Kashyap_boy_7')],
+                      [Button.url('🛎𝐒𝐔𝐏𝐏𝐎𝐑𝐓', 'https://t.me/yarri_ka_circle_7'),
+                      Button.url('𝐔𝐏𝐃𝐀𝐓𝐄🔊', 'https://t.me/attitudeLover4141')],
                      ),
                     link_preview=False
                    )
@@ -48,9 +47,8 @@ async def help(event):
   helptext = "**[🔥](https://te.legra.ph/file/8d6307fcac08120cb9380.jpg), ᴛᴀɢ ᴍᴇᴍʙᴇʀ ʙᴏᴛ'ꜱ ʜᴇʟᴩ ᴍᴇɴᴜ👑**\n\nCommand: /tag \n You can use this command with text you want to tell others. \n`Example: /tag Good morning!` \nYou can use this command as an answer. any message Bot will tag users to replied message"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'https://t.me/ItsAttitudeking'),
-                      Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/OAN_Support')]
-                      [Button.url('⚒ʀᴇᴩᴏ⚒', 'https://github.com/ItsAttitudeking/Tag_member')]
+                      [Button.url('⚜𝐎𝐖𝐍𝐄𝐑⚜', 'https://t.me/Kashyap_boy_7'),
+                      Button.url('🛎𝐒𝐔𝐏𝐏𝐎𝐑𝐓', ''https://t.me/yarri_ka_circle_7)]
                      ),
                     link_preview=False
                    )
