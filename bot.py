@@ -48,7 +48,7 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('⚜𝐎𝐖𝐍𝐄𝐑⚜', 'https://t.me/Kashyap_boy_7'),
-                      Button.url('🛎𝐒𝐔𝐏𝐏𝐎𝐑𝐓', ''https://t.me/yarri_ka_circle_7')]
+                      Button.url('🛎𝐒𝐔𝐏𝐏𝐎𝐑𝐓', 'https://t.me/yarri_ka_circle_7')]
                      ),
                     link_preview=False
                    )
