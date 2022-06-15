@@ -35,7 +35,7 @@ async def start(event):
                    buttons=(
                       [Button.url('🔥𝐀𝐃𝐃 𝐓𝐀𝐆 𝐌𝐄𝐌𝐁𝐄𝐑 𝐓𝐎 𝐆𝐑𝐎𝐔𝐏🔥', 'http://t.me/Tag_member_bot?startgroup=true')],
                       [Button.url('⚜𝐎𝐖𝐍𝐄𝐑⚜', 'Https://t.me/Ritik_kashyap_7')],
-                      [Button.url('🛎𝐒𝐔𝐏𝐏𝐎𝐑𝐓', 'https://t.me/yarri_ka_circle'),
+                      [Button.url('🛎𝐒𝐔𝐏𝐏𝐎𝐑𝐓', 'https://t.me/attitudeLover4141'),
                       Button.url('𝐔𝐏𝐃𝐀𝐓𝐄🔊', 'https://t.me/attitudeLover4141')],
                      ),
                     link_preview=False
